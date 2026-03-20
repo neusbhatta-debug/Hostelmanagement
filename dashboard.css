@@ -1,0 +1,56 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.dashboard-root {
+    -fx-background-color: #f5f7fb;
+}
+
+.dashboard-card {
+    -fx-background-color: white;
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+    -fx-border-color: #dbe4f0;
+    -fx-padding: 25;
+    -fx-max-width: 420;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 16, 0.2, 0, 4);
+}
+
+.page-title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1d3557;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #334155;
+}
+
+.dashboard-button,
+.secondary-button,
+.danger-button {
+    -fx-pref-width: 260;
+    -fx-pref-height: 40;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+}
+
+.dashboard-button {
+    -fx-background-color: #2f80ed;
+    -fx-text-fill: white;
+}
+
+.dashboard-button:hover {
+    -fx-background-color: #1f6fd4;
+}
+
+.secondary-button {
+    -fx-background-color: #e8eef8;
+    -fx-text-fill: #1e3a5f;
+}
+
+.danger-button {
+    -fx-background-color: #d9534f;
+    -fx-text-fill: white;
+}
